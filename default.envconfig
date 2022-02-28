@@ -1,0 +1,50 @@
+[
+    {
+        "key": "ANDROID_HOME",
+        "value": "D:\\Sdk\\AndroidSdk",
+        "paths": [
+            "platform-tools"
+        ],
+        "enable": true
+    },
+    {
+        "key": "ANDROID_SDK_HOME",
+        "value": "D:\\Sdk\\AndroidAvd",
+        "paths": [],
+        "enable": true
+    },
+    {
+        "key": "GRADLE_USER_HOME",
+        "value": "D:\\Sdk\\Gradle",
+        "paths": [],
+        "enable": true
+    },
+    {
+        "key": "JAVA_HOME",
+        "value": "D:\\Software\\AndroidStudio\\jre",
+        "paths": [
+            "bin"
+        ],
+        "enable": true
+    },
+    {
+        "key": "GRADLE_OPTS",
+        "value": "-Dfile.encoding=utf-8",
+        "paths": [],
+        "enable": true
+    },
+    {
+        "key": "NUT_STORE_PATH",
+        "value": "E:\\我的坚果云",
+        "paths": [],
+        "enable": true
+    },
+    {
+        "key": "CMDER_HOME",
+        "value": "D:\\Software\\Cmder",
+        "paths": [
+            ""
+        ],
+        "enable": true
+    }
+]
