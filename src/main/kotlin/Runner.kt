@@ -35,6 +35,8 @@ fun main() {
         .forEach { config ->
             Runtime.getRuntime().exec("setx /M \"${config.key}\" \"${config.value}\"")
 
+            File(config.value).mkdirs()
+
             pathList.addAll(config.paths.map { "%${config.key}%\\$it" })
 
             println("已设置环境变量${config.key}为${config.value}")
